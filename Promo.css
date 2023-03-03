@@ -24,7 +24,12 @@
 .logo {
     padding-left: 1%;
 }
-
+.logo a {
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
 .menu ul {
     display: flex;
     align-items: center;
