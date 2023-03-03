@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Travel Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Gu.css">
+    <!-- <meta> name="viewport" content="width=device-width, initial-scale=1"> -->
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <li><a href="#">RoadTrippy</a></li>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Promotion</li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <div class="signup">
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+        
+    
+    
+    <section class="seec">
+        <h2>Hit the road and make memories with RoadTrippy!</h2>
+        
+        <section class="places">
+            <div class="card">
+                <div id="im"class="im1">
+                    <img src="" alt="">
+                    <br>
+                    <br>
+                </div>
+                <span>
+                    <p>คุณสมอญ ว่างมาก</p>
+                    <p href="#">เพศ หญฺิง อายุ 35 </p>
+                </span>
+                <a href="#">View more </a>
+            </div>
+            <div class="card">
+                <div id="im" class="im2">
+                    <br>
+                    <br>
+                </div>
+                <span>
+                    <p>Koh Samet</p>
+                    <p href="#">12,000 ฿ </p>
+                </span>
+                <a href="#">View more </a>
+            </div>
+            <div class="card">
+                <div id="im" class="im3">
+                    <br>
+                    <br>
+                </div>
+                <span>
+                    <p>Koh PP</p>
+                    <p href="#">3 วัน 2 คืน 12,000/บาท </p>
+                </span>
+                <a href="#">View more </a>
+            </div>
+            <div class="card">
+                <div  id="im" class="im4">
+                    <br>
+                    <br>
+                </div>
+                <span>
+                    <p>Koh Lan</p>
+                    <p href="#">3 วัน 2 คืน 12,000/บาท </p>
+                </span>
+                <a href="#">View more </a>
+            </div>
+            <div class="card">
+                <div id="im" class="im5">
+                    <br>
+                    <br>
+                </div>
+                <span>
+                    <p>Koh Chang</p>
+                    <p href="#">3 วัน 2 คืน 12,000/บาท </p>
+                </span>
+                <a href="#">View more </a>
+            </div>
+            <div class="card">
+                <div id="im" class="im6">
+                    <br>
+                    <br>
+                </div>
+                <span>
+                    <p>Phuket</p>
+                    <p href="#">3 วัน 2 คืน 12,000/บาท </p>
+                </span>
+                <a href="#">View more </a>
+            </div>
+        </section>
+
+    </section>
+    <div class="footer">
+                <a href="#">Copyright</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">Complaints</a>
+    </div>
+    <script>
+        let text = document.getElementById('text');
+        let c1 = document.getElementById('c3');
+        let c2 = document.getElementById('c2');
+        let m2 = document.getElementById('m2');
+        let m3 = document.getElementById('m3');
+        let m1 = document.getElementById('m1');
+
+        window.addEventListener('scroll', function (){
+            let value = window.scrollY;
+            text.style.top = value *0.12 + '%';
+            c3.style.top = value *0.2 + '%';
+            c2.style.right = value *0.5 + '%';
+            c2.style.top = value *2 + 'px';
+            m2.style.right = value * 0.25 + '%';
+            m2.style.top = value * 0.25 + '%';
+            m3.style.left = value *0.55 + 'px';
+            m3.style.top = value *0.55 + 'px';
+            m1.style.top = value *0.08 + '%';
+            
+
+        })
+    </script>
+
+</body>
+
+</html>
