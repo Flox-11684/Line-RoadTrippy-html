@@ -102,7 +102,7 @@ body {
 
 .seec {
     position: relative;
-    padding: 20px;
+    padding: 10px;
     background-image: linear-gradient(rgba(12, 12, 12, 0.5), rgba(0, 0, 0, 0.50)),url('https://i.pinimg.com/564x/cd/72/2b/cd722b376a43b0df56dd53bc91dadc8f.jpg');
     background-size: auto;
     
@@ -117,25 +117,56 @@ body {
     color: #ffffff;
 }
 .places{
-    border:10px #ffffff solid;
+    margin-top: 50px;
+    /* border:10px #ffffff solid; */
     display: grid;
     grid-column-start: 1;
-    grid-column-end: 3;
-    gap: 50px;
-    grid-template-columns: auto auto auto;
+    grid-column-end: 2;
+    gap: 30px;
+    grid-template-columns: auto auto;
 }
-.cards {
-    margin: 0;
-    padding: 0;
+.places p {
+    color: #050505;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
     
+}
+.places a {
+    color: #0f0f0f;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    text-decoration: none;
+    padding: 4px;
+    background-color: #e6e6e6;
+}
+.places .card {
+    background-color:rgb(231, 230, 230) ;
+    max-width: 180px;
+    border-radius: 2px;
+
+    
+} 
+.card span{
+    display: grid;
+}
+
+.cards a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: 0.6s;
 }
 
 #im{
     margin: 0px;
     height: 200px;
-    width: 200px;
+    width: 180px;
     /* border: #ffffff 2px solid; */
-    margin: 40px 0 0 0; 
     top: 0;
     background-color: #ffffff;
     /* background-image: url(similun.jpg); */
@@ -145,21 +176,33 @@ body {
 }
 
 .im1 {
-    background-image: url(G4.jpg);
+    background-image: url(G10.jpg);
     background-size: cover;
 }.im2 {
     background-image: url(G3.jpg);
     background-size: cover;
 }.im3 {
-    background-image: url(G2.jpg);
+    background-image: url(G8.jpg);
     background-size: cover;
 }.im4 {
     background-image: url(G1.jpg);
     background-size: cover;
 }.im5 {
-    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/14/cf/47/lonely-beach.jpg?w=800&h=-1&s=1');
+    background-image: url(G5.jpg);
     background-size: cover;
 }.im6 {
-    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/5d/c8/caption.jpg?w=1200&h=-1&s=1&cx=2606&cy=1838&chk=v1_a61182fd4040ed4ecc4e');
+    background-image: url(G6.jpg);
+    background-size: cover;
+}.im7 {
+    background-image: url(G7.jpg);
+    background-size: cover;
+}.im8 {
+    background-image: url(G12.jpg);
+    background-size: cover;
+}.im9 {
+    background-image: url(G9.jpg);
+    background-size: cover;
+}.im10 {
+    background-image: url(G11.jpg);
     background-size: cover;
 }
